@@ -20,6 +20,10 @@
     
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 body {
     background: var(--color-fondo-body);
     font-family: sans-serif;

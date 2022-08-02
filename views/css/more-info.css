@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FB2B69;
+    padding: 50px;
+}
+.container-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.info, .container{
+    width: 50%;
+}
+
+.volver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.volver button {
+    font-size: 30px;
+    border: none;    
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
