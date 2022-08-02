@@ -1,0 +1,100 @@
+:root {
+
+    /* propiedades-generales */
+    --margen-entre-elementos : 20px;
+    --borde-radio : 10px;
+
+    /* colores-de-fondo */
+    --color-fondo-body: #FB2B69;
+    --color-fondo-header: #BC105C ;
+    --color-fondo-container-juegos: #BC105C ;
+
+    /* juegos */
+    --color-fondo-juego:white;
+    --color-titulo-juego: #BC105C;
+    --color-boton-comprar-fondo: green;
+    --color-boton-comprar-fuente: white;
+
+    /* footer */
+    --color-fondo-footer: #E96093;
+    
+}
+
+body {
+    background: var(--color-fondo-body);
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* ----------haeader */
+header h1{
+    background: var(--color-fondo-header);
+    text-align: center;
+    color: white;
+    font-size: 3rem ;
+    border-left: 10px solid white ;
+    border-right: 10px solid white;
+    padding: 20px;
+
+}
+
+
+/* ----------footer */
+footer {
+    background: var(--color-fondo-footer);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: var(--margen-entre-elementos);
+    border-radius: var(--borde-radio);
+}
+
+/* ----------main */
+.container-juegos {
+    margin: auto;
+    padding: 20px;
+    background: var(--color-fondo-container-juegos);
+    border-radius: var(--borde-radio);
+}
+
+.juego-1, .juego-2 {
+    background: var(--color-fondo-juego);
+    padding: 15px;
+    margin: var(--margen-entre-elementos);
+    border-radius: var(--borde-radio);
+}
+
+img{
+    width: 100%;
+  max-width: 100%;
+}
+
+.boton-comprar {
+    background-color: var(--color-boton-comprar-fondo);
+    color: var(--color-boton-comprar-fuente);
+    border-radius: var(--borde-radio);
+    border: none;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.boton-comprar:hover {
+    background: var(--color-fondo-body);
+}
+
+h4 {
+    color: var(--color-titulo-juego);
+    border-bottom: dotted ;
+    text-align: end;
+    font-size: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.div-boton {
+    display: flex;
+    justify-content: center;
+}
